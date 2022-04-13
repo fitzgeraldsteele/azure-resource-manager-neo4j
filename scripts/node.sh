@@ -137,9 +137,9 @@ fi
 echo Configuring extensions and security in neo4j.conf...
 sed -i s~#dbms.unmanaged_extension_classes=org.neo4j.examples.server.unmanaged=/examples/unmanaged~dbms.unmanaged_extension_classes=com.neo4j.bloom.server=/bloom,semantics.extension=/rdf~g /etc/neo4j/neo4j.conf
 sed -i s/#dbms.security.procedures.unrestricted=my.extensions.example,my.procedures.*/dbms.security.procedures.unrestricted=,jwt.security.*,apoc.*,gds.*,bloom.*,foo.*/g /etc/neo4j/neo4j.conf
-sed -i s/gds.*,bloom.*/jwt.security.*,apoc.*,gds.*,bloom.*,foo.*/g /etc/neo4j/neo4j.conf
-sed -i '$a dbms.security.http_auth_allowlist=/,/browser.*,/bloom.*,foo.*' /etc/neo4j/neo4j.conf
-sed -i '$a dbms.security.procedures.allowlist=apoc.*,gds.*,bloom.*,foo.*' /etc/neo4j/neo4j.conf
+sed -i s/gds.*,bloom.*/jwt.security.*,apoc.*,gds.*,bloom.*/g /etc/neo4j/neo4j.conf
+sed -i '$a dbms.security.http_auth_allowlist=/,/browser.*,/bloom.*' /etc/neo4j/neo4j.conf
+sed -i '$a dbms.security.procedures.allowlist=apoc.*,gds.*,bloom.*' /etc/neo4j/neo4j.conf
 
 echo Setting service permission bits to 644...
 sudo chmod 644 /usr/lib/systemd/system/neo4j.service
