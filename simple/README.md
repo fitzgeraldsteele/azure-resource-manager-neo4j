@@ -32,6 +32,29 @@ Then you'll want to clone this repo.  You can do that with the command:
 
 When complete the template prints the URLs to access Neo4j.
 
+## Working with CA-signed Certificates
+
+When working with non-public data, please carefully follow instructions in [Neo4j SSL Setup - 4.x.pdf](Neo4jSSLSetup-4.x.pdf) to configure a proper CA-signed certificate.  This document links to resources and videos which further clarify configuration.</i>
+
+## Configuration notes
+
+<ol> 
+<li>Graph Data Science (GDS) currently runs on single node instances so even if you specify a license key and GDS version, it will not install on a multi-node cluster.</li>
+<li>By default, the installer will choose the versions of APOC, Bloom, and GDS which are bundled on the server in <i>/labs</i> and <i>/plugins</i> directories specifically.  You can override these configurations explicitly.  For example, v4.4.5 ships with Bloom 2.1.0, which does not open in Neo Desktop.  So you would specify Bloom Version <i>2.1.1</i> in the configuration.</li>
+<li>Installation takes around 4 minutes per machine.  You can check up on progress (and detect errors) with a command like
+
+    sudo tail -100 /var/log/messages
+
+</li>
+<li>In a typical install, you will accept defaults and leave versions for GDS, Bloom, and APOC -- intentionally blank. 
+
+    graphDataScienceVersion: None
+    bloomVersion: None
+    apocVersion: None
+
+</li>
+</ol>
+
 ## Deleting a Deployment
 To delete your deployment you can either run the command below or use the GUI in the [Azure Portal](https://portal.azure.com).
 
