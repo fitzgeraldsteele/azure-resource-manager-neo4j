@@ -35,6 +35,15 @@
       "location": {
         "type": "string",
         "defaultValue": "[resourceGroup().location]"
+      },
+      "graphDataScienceVersion": {
+        "type": "string"
+      },
+      "bloomVersion": {
+        "type": "string"
+      },
+      "apocVersion": {
+        "type": "string"
       }
     },
     "variables": {
