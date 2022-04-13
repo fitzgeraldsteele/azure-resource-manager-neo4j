@@ -21,21 +21,21 @@
     "value": "True"
   },
   "graphDataScienceLicenseKey": {
-    "value": ""
+    "value": "None"
   },
   "installBloom": {
     "value": "True"
   },
   "bloomLicenseKey": {
-    "value": ""
+    "value": "None"
   },
   "graphDataScienceVersion": {
-    "value": ""
+    "value": "None"
   },
   "bloomVersion": {
-    "value": ""
+    "value": "None"
   },
   "apocVersion": {
-    "value": ""
+    "value": "None"
   }
 }
