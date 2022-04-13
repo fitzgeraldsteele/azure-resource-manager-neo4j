@@ -234,7 +234,10 @@
       "graphDataScienceLicenseKey": "[steps('neo4jConfig').graphDataScienceLicenseKey]",
       "installBloom": "[steps('neo4jConfig').installBloom]",
       "bloomLicenseKey": "[steps('neo4jConfig').bloomLicenseKey]",
-      "location": "[location()]"
+      "location": "[location()]",
+      "graphDataScienceVersion": "[steps('neo4jConfig').graphDataScienceVersion]",
+      "bloomVersion": "[steps('neo4jConfig').bloomVersion]",
+      "apocVersion": "[steps('neo4jConfig').apocVersion]"
     }
   }
 }

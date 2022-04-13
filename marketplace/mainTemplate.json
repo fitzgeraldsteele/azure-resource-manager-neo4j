@@ -37,13 +37,16 @@
         "defaultValue": "[resourceGroup().location]"
       },
       "graphDataScienceVersion": {
-        "type": "string"
+        "type": "string",
+        "defaultValue": "None"
       },
       "bloomVersion": {
-        "type": "string"
+        "type": "string",
+        "defaultValue": "None"
       },
       "apocVersion": {
-        "type": "string"
+        "type": "string",
+        "defaultValue": "None"
       },
       "_artifactsLocation": {
           "type": "string",
@@ -251,7 +254,7 @@
                       ]
                     },
                     "protectedSettings": {
-                      "commandToExecute": "[concat('bash node.sh ', parameters('adminUsername'), ' ', parameters('adminPassword'), ' ', variables('uniqueString'), ' ', parameters('location'), ' ', parameters('graphDatabaseVersion'), ' ', parameters('installGraphDataScience'), ' ', parameters('graphDataScienceLicenseKey'), ' ', parameters('installBloom'), ' ', parameters('bloomLicenseKey'), ' ', parameters('nodeCount'))]"
+                      "commandToExecute": "[concat('bash node.sh ', parameters('adminUsername'), ' ', parameters('adminPassword'), ' ', variables('uniqueString'), ' ', parameters('location'), ' ', parameters('graphDatabaseVersion'), ' ', parameters('installGraphDataScience'), ' ', parameters('graphDataScienceLicenseKey'), ' ', parameters('installBloom'), ' ', parameters('bloomLicenseKey'), ' ', parameters('nodeCount'), ' ', parameters('graphDataScienceVersion'), ' ', parameters('bloomVersion'), ' ', parameters('apocVersion'))]"
                     }
                   }
                 }
