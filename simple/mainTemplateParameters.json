@@ -21,21 +21,12 @@
     "value": "True"
   },
   "graphDataScienceLicenseKey": {
-    "value": "eyJhbGciOiJQUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFudGhvbnkua3JpbnNreUBuZW80ai5jb20iLCJleHAiOjE2Njk4ODE2MDAsImZlYXR1cmVWZXJzaW9uIjoiKiIsIm9yZyI6Ik5lbzRqIFRyYWluaW5nIiwicHViIjoibmVvNGouY29tIiwicXVhbnRpdHkiOiIxIiwicmVnIjoiYW50aG9ueSBrcmluc2t5Iiwic2NvcGUiOiJUcmlhbCIsInN1YiI6Im5lbzRqLWdkcyIsInZlciI6IioiLCJpc3MiOiJuZW80ai5jb20iLCJuYmYiOjE2NDczODQ3MzAsImlhdCI6MTY0NzM4NDczMCwianRpIjoiNW5PV1NiV0JFIn0.KVAMniNRIEVlYjN5Wlyqtp5EqJd31hFnmRLhLEtlSum8uVD3bcoL8dwABVd-h7AA8k-uhGJ2sVss7pZt8R84cJgNHYpH_tdapZcJhooaH6SsVC78iuxy11ZpGM6DS-q83jRc1b956YPNEUSmwxPlKbpotrzLv067qPNBfmUBHy-gBXemIjdKDyrpfpPM2IPtBxmKfrthnBQwCucXGprPlw1-cvrZkhVkVELqnUNKpBU7oRu2NXuvHp4zwwaNi9tNfbcJw9_ZYYAL-vOxpNMTcS2JJMDQAG8okZCJ0BDcUtimtgqkp9oBZvBFjpap87lgSs98IXo-28MkFSPAFvJ9xQ"
+    "value": "None"
   },
   "installBloom": {
     "value": "True"
   },
   "bloomLicenseKey": {
-    "value": "eyJhbGciOiJQUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFudGhvbnlrcmluc2t5QGdtYWlsLmNvbSIsImV4cCI6MTY2OTg4MTYwMCwiZmVhdHVyZVZlcnNpb24iOiIqIiwib3JnIjoiTmVvNGogVHJhaW5pbmciLCJwdWIiOiJuZW80ai5jb20iLCJxdWFudGl0eSI6IjEiLCJyZWciOiJhbnRob255IGtyaW5za3kiLCJzY29wZSI6IlRyaWFsIiwic3ViIjoibmVvNGotYmxvb20tc2VydmVyIiwidmVyIjoiKiIsImlzcyI6Im5lbzRqLmNvbSIsIm5iZiI6MTY0NzM4NDc2MiwiaWF0IjoxNjQ3Mzg0NzYyLCJqdGkiOiJyeC05ejdVNUkifQ.u7y5hByw-sSfLxzcOZo0T8k_RFebbDfAsdS9rrr03SGX08ET8iS-MqTXQvjgEvurzi2aEhz_YEicMZ378dMzhAhTE_OHu6KER5bbp6X8_KHzQN10VoX4gMjHVZ28hVxC0tnqrjEBz8h6GbdRfUfDCG7BYaRJkQZvpj5uJqBrY-fBEULqnKL3BHGmkSIxsZFCUEcNrAnWqetUiPr1WzEiJZeASAWbZvBK5w-1b3eyGdl9e-AS7WC_NBat_XZPeNTHls8s_j7xZx_WtNzBUII58FqqPRsOExu4qP2l-1BlNBLFErfi4ayd3rVRzbGQHA6bjLFOws6xwt_ZW2KWsu33Rw"
-  },
-  "graphDataScienceVersion": {
-    "value": ""
-  },
-  "bloomVersion": {
-    "value": ""
-  },
-  "apocVersion": {
-    "value": ""
+    "value": "None"
   }
 }

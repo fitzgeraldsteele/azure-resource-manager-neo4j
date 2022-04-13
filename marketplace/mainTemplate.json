@@ -36,16 +36,7 @@
         "type": "string",
         "defaultValue": "[resourceGroup().location]"
       },
-      "graphDataScienceVersion": {
-        "type": "string"
-      },
-      "bloomVersion": {
-        "type": "string"
-      },
-      "apocVersion": {
-        "type": "string"
-      },
-      "_artifactsLocation": {
+            "_artifactsLocation": {
           "type": "string",
           "metadata": {
               "description": "The base URI where artifacts required by this template are located including a trailing '/'"

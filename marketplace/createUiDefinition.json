@@ -183,42 +183,6 @@
               "regex": "[a-zA-Z0-9_.-]*",
               "validationMessage": "If you don't have a key enter None.  The license key is made up of letters, numbers and the characters -, _ and ."
             }
-          },
-          {
-            "name": "graphDataScienceVersion",
-            "type": "Microsoft.Common.TextBox",
-            "label": "Graph Data Science version (optional)",
-            "defaultValue": "",
-            "toolTip": "GDS version",
-            "constraints": {
-              "required": false,
-              "regex": "[a-zA-Z0-9_.-]*",
-              "validationMessage": "If you want to accept defaults, leave blank.  The license key is made up of letters, numbers and the characters -, _ and ."
-            }
-          },
-          {
-            "name": "bloomVersion",
-            "type": "Microsoft.Common.TextBox",
-            "label": "Bloom version (optional)",
-            "defaultValue": "2.1.1",
-            "toolTip": "Bloom version",
-            "constraints": {
-              "required": false,
-              "regex": "[a-zA-Z0-9_.-]*",
-              "validationMessage": "If you want to accept defaults, leave blank.  The license key is made up of letters, numbers and the characters -, _ and ."
-            }
-          },
-          {
-            "name": "apocVersion",
-            "type": "Microsoft.Common.TextBox",
-            "label": "APOC version (optional)",
-            "defaultValue": "",
-            "toolTip": "APOC version",
-            "constraints": {
-              "required": false,
-              "regex": "[a-zA-Z0-9_.-]*",
-              "validationMessage": "If you want to accept defaults, leave blank.  The license key is made up of letters, numbers and the characters -, _ and ."
-            }
           }
         ]
       }
