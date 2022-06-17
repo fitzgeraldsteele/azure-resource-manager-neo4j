@@ -138,7 +138,7 @@
         "type": "Microsoft.Compute/virtualMachineScaleSets",
         "name": "nodes",
         "location": "[parameters('location')]",
-        "apiVersion": "2017-03-30",
+        "apiVersion": "2022-03-01",
         "dependsOn": [
           "[resourceId('Microsoft.Network/virtualNetworks', 'vnet')]"
         ],
@@ -152,10 +152,9 @@
           "capacity": "[parameters('nodeCount')]"
         },
         "properties": {
-          "overprovision": false,
-          "upgradePolicy": {
-            "mode": "Manual"
-          },
+          "orchestrationMode": "flexible",
+          "platformFaultDomainCount": 1,
+          "singlePlacementGroup": false,
           "virtualMachineProfile": {
             "storageProfile": {
               "osDisk": {
@@ -185,6 +184,7 @@
               "adminPassword": "[parameters('adminPassword')]"
             },
             "networkProfile": {
+              "networkApiVersion": "2020-11-01",
               "networkInterfaceConfigurations": [
                 {
                   "name": "nic",
